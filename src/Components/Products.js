@@ -12,7 +12,7 @@ export const Products = () => {
         <>
             {products.length !== 0 && <h1>Products</h1>}
             <div className='products-container'>
-                {products.length === 0 && <div>slow internet...no products to display</div>}
+                {products.length === 0 && <div>slow internet...oo poducts to display</div>}
                 {products.map(product => (
                     <div className='product-card' key={product.ProductID}>
                         <div className='product-img'>
@@ -23,6 +23,7 @@ export const Products = () => {
                         </div>
                         <div className='product-price'>
                             Rs {product.ProductPrice}.00
+
                     </div>
                         <button className='addcart-btn' onClick={() => dispatch({ type: 'ADD_TO_CART', id: product.ProductID, product })}>ADD TO CART</button>
                     </div>
