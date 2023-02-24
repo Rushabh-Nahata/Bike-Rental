@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Project Help both the provider and person who needs the bike for rent.
+Click on link for overview https://bikerental-isa.netlify.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
